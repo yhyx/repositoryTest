@@ -34,7 +34,7 @@ public class JdbcTemplateUtils {
             Object args[] = {teacherEntity.getAge(), teacherEntity.getName() };
             int temp = jdbcTemplate.update(sql, args);
             if (temp > 0) {
-                logger.info("插入成功！");
+                logger.info("插入成功1！");
             } else {
                 logger.info("插入失败");
             }
